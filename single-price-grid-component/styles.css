@@ -1,5 +1,6 @@
 body{
   background-color: #f1f1f1;
+
 }
 
 button{
@@ -14,6 +15,7 @@ button{
   flex-direction: column;
   justify-content: center;
   margin-left: 25%;
+  font-family: 'Outfit', sans-serif;
 }
 
 .component-bottom{
@@ -37,19 +39,24 @@ button{
 }
 
 .component-top-description{
-  color: hsl(204, 43%, 93%);
+  color: #cbcccc;
+  padding-left: 38px;
 }
 
 .component-top-sub{
   color: hsl(71, 73%, 54%);
+  padding-left: 38px;
+  padding-bottom: 15px;
 }
 
 .component-top{
   background-color: white;
   width: 628px;
   height: 213px;
+  font-weight: 700;
 }
 
 .component-top-title{
   color: hsl(179, 62%, 43%);
+  padding: 38px 38px 5px 38px;
 }
