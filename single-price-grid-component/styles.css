@@ -1,0 +1,55 @@
+body{
+  background-color: #f1f1f1;
+}
+
+button{
+  background-color: hsl(71, 73%, 54%);
+  color: white;
+}
+
+.component{
+  width: 628px;
+  height: 470px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 25%;
+}
+
+.component-bottom{
+  display: flex;
+  flex-direction: row;
+}
+
+.component-bottom-left{
+  background-color: hsl(179, 62%, 43%);
+  color: white;
+  width: 314px;
+  height: 235px;
+
+}
+
+.component-bottom-right{
+  background-color: #6ad7d7;
+  color: white;
+  width: 314px;
+  height: 235px;
+}
+
+.component-top-description{
+  color: hsl(204, 43%, 93%);
+}
+
+.component-top-sub{
+  color: hsl(71, 73%, 54%);
+}
+
+.component-top{
+  background-color: white;
+  width: 628px;
+  height: 213px;
+}
+
+.component-top-title{
+  color: hsl(179, 62%, 43%);
+}
