@@ -16,6 +16,8 @@ button{
   justify-content: center;
   margin-left: 25%;
   font-family: 'Outfit', sans-serif;
+  box-shadow: 1px 3px 10px grey;
+  border-radius: 10px 10px 10px 10px;
 }
 
 .component-bottom{
@@ -28,6 +30,7 @@ button{
   color: white;
   width: 314px;
   height: 235px;
+  border-radius: 0px 0px 0px 10px;
 
 }
 
@@ -36,6 +39,7 @@ button{
   color: white;
   width: 314px;
   height: 235px;
+  border-radius: 0px 0px 10px 0%;
 }
 
 .component-top-description{
@@ -52,8 +56,9 @@ button{
 .component-top{
   background-color: white;
   width: 628px;
-  height: 213px;
+  height: 250px;
   font-weight: 700;
+  border-radius: 10px 10px 0% 0%;
 }
 
 .component-top-title{
