@@ -6,6 +6,13 @@ body{
 button{
   background-color: hsl(71, 73%, 54%);
   color: white;
+  width: 232px;
+  height: 39px;
+  border-style: none;
+  border-radius: 10px;
+  font-weight: bold;
+  box-shadow: 1px 3px 10px grey;
+
 }
 
 .component{
@@ -31,7 +38,31 @@ button{
   width: 314px;
   height: 235px;
   border-radius: 0px 0px 0px 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 20px;
 
+}
+
+.component-bottom-left-description{
+  opacity: 70%;
+  padding-bottom: 25px;
+}
+
+.component-bottom-left-per-month{
+  padding-top: 25px;
+  opacity: 40%;
+}
+
+.component-bottom-left-price{
+  padding-right: 10px;
+}
+
+.component-bottom-left-title{
+  padding-top: 10px;
+  opacity: 80%;
+  margin-right: 18%;
 }
 
 .component-bottom-right{
@@ -40,6 +71,7 @@ button{
   width: 314px;
   height: 235px;
   border-radius: 0px 0px 10px 0%;
+  padding-bottom: 20px;
 }
 
 .component-top-description{
@@ -65,3 +97,8 @@ button{
   color: hsl(179, 62%, 43%);
   padding: 38px 38px 5px 38px;
 }
+
+.cost{
+  display: flex;
+  flex-direction: row;
+  margin-right: 34%;
